@@ -93,6 +93,11 @@ input{
     position: relative;
 }
 
+#error{
+font-size: 11px;
+color: red;
+}
+
 .forgotpassword{
     text-align: right;
     font-size: 11px;
