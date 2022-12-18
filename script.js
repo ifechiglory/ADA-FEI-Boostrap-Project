@@ -1,4 +1,5 @@
 //Start of function that validates user input in a form
+
 function validateForm() {
 
     //Create an array that gets and stores the value of the input fields. 
