@@ -11,7 +11,7 @@ function validateForm() {
     //Use a loop to validate
     for (var i = 0; i < input.length; i++) {
 
-        //Create a regex that the email and password will be checked against. This si to prevent invalid email addresses from being used
+        //Create a regex that the email and password will be checked against. This is to prevent invalid email addresses from being used
         var emailPattern = /[a-z]{3,10}@gmail|yahoo|mail|hotmail\.com|co\.uk?/;
         var passwordPattern =/[a-z]{3,6}/;
         
@@ -23,7 +23,7 @@ function validateForm() {
         
         //Using regular expression, check that the email is an actual email and password matches the specified format, then check that the error varible is still 0
 
-        //I have any issue with my password regex. I set the maximum value to be 6 but this statement still returns true for a password that is more than 6
+        //I have an issue with my password regex. I set the maximum value to be 6 but this statement still returns true for a password that is more than 6
         if (emailPattern.test(input[0].value) && input[1].value.match(passwordPattern) && error === 0){
             alert("Login Successful!");
         }
