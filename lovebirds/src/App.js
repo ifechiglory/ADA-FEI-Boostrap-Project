@@ -5,7 +5,7 @@ function App() {
     return (
         <div className = "container-fluid">
             <div className = "row no-gutters">
-                <div className = "col-12 col-lg-7 col-md-6 col-sm-12">
+                <div className = "col-12 col-lg-7 col-md-6 col-sm-12" id="bg-img">
                     <img src={image} alt="lovebirds" className="img-responsive"></img>
 
                     <div className="img-text text-center">
