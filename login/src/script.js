@@ -1,5 +1,7 @@
 //Start of function that validates user input in a form
-function validateForm() {
+const button = document.getElementById('submit');
+button.addEventListener('click', e => {
+    e.preventDefault();
 
     //Create an array that gets and stores the value of the input fields. 
     var input = [document.getElementById("username"), document.getElementById("password")];
@@ -33,4 +35,4 @@ function validateForm() {
         }
         return;
     }
-}
+});
