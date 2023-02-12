@@ -1,4 +1,4 @@
-import './style.css';
+import './App.css';
 import image from './Image 3.png';
 
 function App() {
